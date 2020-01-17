@@ -1,0 +1,19 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-specifier-resolution=node dist/index.js",
+    "dev": "tsc && concurrently \"tsc -w\" \"nodemon --experimental-specifier-resolution=node dist/index.js\"",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "14.0.1",
+    "concurrently": "5.2.0",
+    "nodemon": "2.0.4",
+    "typescript": "3.9.2"
+  },
+  "engines": {
+    "node": "14.2.0"
+  },
+  "license": "MIT"
+}
