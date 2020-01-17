@@ -5,9 +5,12 @@
     "dev": "tsc && concurrently \"tsc -w\" \"nodemon --es-module-specifier-resolution=node dist/index.js\"",
     "build": "tsc"
   },
-  "dependencies": {},
+  "dependencies": {
+    "pg": "7.17.1"
+  },
   "devDependencies": {
     "@types/node": "13.5.2",
+    "@types/pg": "7.14.1",
     "concurrently": "5.1.0",
     "nodemon": "2.0.2",
     "typescript": "3.8.0-beta"
