@@ -882,10 +882,10 @@ tslib@^1.9.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.10.0.tgz#c3c19f95973fb0a62973fb09d90d961ee43e5c8a"
   integrity sha512-qOebF53frne81cf0S9B41ByenJ3/IuH8yJKngAX35CmiZySA0khhkovshKK+jGCaMnVomla7gVlIcc3EvKPbTQ==
 
-typescript@3.8.0-beta:
-  version "3.8.0-beta"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.0-beta.tgz#acdcaf9f24c7e20b1ff0a6329d1e8d63691e2e13"
-  integrity sha512-mQEmQUJg0CQBhf/GSVnGscKv/jrKsrLxE01AhdjYmBNoXX2Iah3i38ufxXByXacK6Fc5Nr9oMz7MjpjgddiknA==
+typescript@3.8.0-dev.20200117:
+  version "3.8.0-dev.20200117"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.8.0-dev.20200117.tgz#15abe5da4fab61af2f28c2cff89e8d3283c37d77"
+  integrity sha512-80flPGfPkB9agERB/XHIt1C9F27EYBt3alVUS8VVjblPvigLjQbva/tkAhGacsbrRYzL8qWIEwRVTOrtiT2CaQ==
 
 undefsafe@^2.0.2:
   version "2.0.2"
