@@ -34,3 +34,5 @@ Would love suggestions on how to make it better or to point to a better example!
 Here is a branch of the example with including a commonjs pacakge (`pg`):
 
 https://github.com/Urigo/typescript-node-es-modules-example/commit/98304173e964713955be3a92b4e355a857376dca
+
+> The [renovate.json](https://github.com/Urigo/typescript-node-es-modules-example/blob/master/renovate.json) file has nothing to do with the project itself. It's a file to activate [RenovateBot](https://github.com/renovatebot/renovate) to automatically PR this repository when a new version of any dependency of that project has been published
