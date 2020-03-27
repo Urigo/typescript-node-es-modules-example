@@ -12,12 +12,12 @@ Would love suggestions on how to make it better or to point to a better example!
 
 ## What I've done (so you can tell me what I should have done...)
 
-### Node
+### Node (package.json)
 
 - `type: module`: Tell Node that `.js` files are ES Modules. (When file extensions are .mjs then `type=module` is not required in package.json)
 - `----experimental-specifier-resolution=node`: By default, Node wants file extensions in import but [TypeScript doesn't include file extension in it's output](https://github.com/microsoft/TypeScript/issues/16577). so this enable automatic extension resolution in Node.
 
-### TypeScript
+### TypeScript (tsconfig.json)
 
 - `"module": "esnext"`: Make Typescript output ES Modules
 - `"target": "es2020"`: Highest target (from `3.8.0`)
