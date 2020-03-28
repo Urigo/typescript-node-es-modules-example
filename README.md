@@ -15,7 +15,7 @@ Would love suggestions on how to make it better or to point to a better example!
 ### Node (package.json)
 
 - `type: module`: Tell Node that `.js` files are ES Modules. (When file extensions are .mjs then `type=module` is not required in package.json)
-- `----experimental-specifier-resolution=node`: By default, Node wants file extensions in import but [TypeScript doesn't include file extension in it's output](https://github.com/microsoft/TypeScript/issues/16577). so this enable automatic extension resolution in Node.
+- `----experimental-specifier-resolution=node`: Tell Node to enable the automatic extension resolution and importing from directories without specify the `.js` extension.<br /><br />**Note:** By default, Node wants file extensions in import see: [TypeScript doesn't include file extension in it's output](https://github.com/microsoft/TypeScript/issues/16577)
 
 ### TypeScript (tsconfig.json)
 
