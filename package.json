@@ -10,7 +10,7 @@
     "@types/node": "14.0.4",
     "concurrently": "5.2.0",
     "nodemon": "2.0.4",
-    "typescript": "3.9.3"
+    "typescript": "5.6.3"
   },
   "engines": {
     "node": "14.3.0"
