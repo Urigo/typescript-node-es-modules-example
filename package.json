@@ -7,7 +7,7 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@types/node": "14.0.4",
+    "@types/node": "22.20.2",
     "concurrently": "5.2.0",
     "nodemon": "2.0.4",
     "typescript": "3.9.3"
